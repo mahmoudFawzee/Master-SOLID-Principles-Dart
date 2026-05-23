@@ -1,4 +1,6 @@
 // Concrete Wallet Transaction
+import 'package:solid_principles_with_dart/0-full-challenges/fanni-offline-first/solution/transaction_manger.dart';
+
 import '/0-full-challenges/fanni-offline-first/solution/models.dart';
 import '/0-full-challenges/fanni-offline-first/solution/network_client.dart';
 import '/0-full-challenges/fanni-offline-first/solution/queue_manger.dart';
@@ -7,7 +9,12 @@ import '/0-full-challenges/fanni-offline-first/solution/sync_queue.dart';
 void main() {
   final networkClient = NativeNetworkClient();
   final queueManger = QueueMangerImpl();
-  final syncEngine = SyncMangerImpl(networkClient, queueManger);
+  final processor = SyncQueueMangerProcessor(
+    MockTransactionsManger(),
+    WalletTransactionsManger(),
+    NaturalTransactionsManger(networkClient),
+  );
+  final syncEngine = SyncMangerImpl(processor, queueManger);
 
   // Queue up different transaction types
   queueManger.queueTransaction(
