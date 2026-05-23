@@ -1,8 +1,8 @@
 # Mastering SOLID Principles in Dart & Flutter (Advanced Architecture Case Studies)
 
-[![Dart Version](https://img.shields.io/badge/Dart-3.0%2B-blue.svg)](https://dart.dev)
-[![Architecture Style](https://img.shields.io/badge/Architecture-SOLID%20Principles-emerald.svg)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Dart Version](https://img.shields.io/badge/Dart-3.0%2B-blue.png)](https://dart.dev)
+[![Architecture Style](https://img.shields.io/badge/Architecture-SOLID%20Principles-emerald.png)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.png)](LICENSE)
 
 Welcome! This repository is a practical exhibition of production-grade software design using the **SOLID Principles** within the Dart and Flutter ecosystems. Instead of simplistic academic code snippets, these implementations solve real-world architectural issues found in production mobile backends, including localized workflows, multi-tier data structures, polymorphic strategies, and offline ledger sync.
 
