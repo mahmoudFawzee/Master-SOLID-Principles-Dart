@@ -1,10 +1,8 @@
-````markdown
 # Mastering SOLID Principles in Dart & Flutter (Advanced Architecture Case Studies)
 
-[![Dart Version](https://img.shields.io/badge/Dart-3.0%2B-blue.svg)](https://dart.dev)
-[![Flutter Version](https://img.shields.io/badge/Flutter-3.0%2B-02569B.svg?logo=flutter)](https://flutter.dev)
-[![Architecture Style](https://img.shields.io/badge/Architecture-SOLID%20Principles-00B0FF.svg)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Dart Version](https://img.shields.io/badge/Dart-3.0%2B-blue.png)](https://dart.dev)
+[![Architecture Style](https://img.shields.io/badge/Architecture-SOLID%20Principles-emerald.png)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.png)](LICENSE)
 
 Welcome! This repository is an advanced, practical exhibition of production-grade software design utilizing the **SOLID Principles** within the Dart and Flutter ecosystems. Instead of simplistic academic snippets, these implementations solve real-world architectural challenges found in enterprise mobile applications and backends.
 
@@ -52,6 +50,7 @@ lib/
 │   └── checkout_facade.dart        # Unified business logic facade orchestrating sub-service transactions
 └── main.dart                       # Lean UI entrypoint containing decoupled widget trees and root DI
 ```
+
 ````
 
 ### 📝 Single Responsibility Principle (SRP)
@@ -121,3 +120,4 @@ If you are a **Recruiter or Engineering Lead**, this repository demonstrates my 
 ```
 
 ```
+````
